@@ -1,0 +1,72 @@
+body {
+    background: url('/Users/denisgorbatov/Desktop/Coding Websites/Intermediate/Text2VoiceApp/Animated Backgrounds - Moving Background - Night Sky_files/2_animated_background.gif');
+}
+.wrapper {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+    transition: 0.3s ease-out;
+}
+.wrapper:hover {
+    transform: scale(1.2);
+}
+h1 {
+    color: #6c0102;
+    font-style: italic;
+    text-align: center;
+}
+cite {
+    text-decoration: underline #6c0102;
+    font-style:normal;
+    color: black;
+}
+textarea {
+    align-items: center;
+    border: solid 2.5px black;
+    resize: none;
+    border-radius: 10px;
+}
+textarea::selection {
+    color: rgb(29, 0, 249);
+}
+.bottom {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 15px;
+}
+select {
+    width:150px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: white;
+    border: solid 2.5px #6c0102;
+    color: #6c0102;
+    margin-right: 40px;
+    transition: 0.3s ease-out;
+}
+select:hover {
+    transform: scale(1.3);
+}
+button {
+    width:100px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #6c0102;
+    border: solid 2.5px #6c0102;
+    color: white;
+    margin-left: 40px;
+    transition: 0.3s ease-out;
+}
+button:hover {
+    transform: scale(1.3);
+}
